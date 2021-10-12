@@ -82,99 +82,121 @@
         <!-- Judul Jadwal KRS -->
         <h2 id="judul-jadwal">Jadwal KRS</h2>
         <!-- Tabel KRS -->
-        <div id=table-krs>
+        <div id=tabel-krs>
             <table>
-                <tr>
-                    <td>1</td>
-                    <td>A11.54101</td>
-                    <td>A11.4105</td>
-                    <td>Kalkulus 1</td>
-                    <td>4</td>
-                    <td>B</td>
-                    <td>Rabu 08.40-10.20</td>
-                    <td>H.4.4</td>
-                    <td>Jumat 08.40-10.20</td>
-                    <td>H.4.7</td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>A11.54105</td>
-                    <td>A11.4105</td>
-                    <td>Dasar Pemrograman</td>
-                    <td>4</td>
-                    <td>B</td>
-                    <td>Rabu 07.00-08.40</td>
-                    <td>H.4.4</td>
-                    <td>Senin 12.30-14.10</td>
-                    <td>D.2.H</td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>A11.54302</td>
-                    <td>A11.4105</td>
-                    <td>Matematika Diskrit</td>
-                    <td>3</td>
-                    <td>B</td>
-                    <td>Selasa 09.30-12.00</td>
-                    <td>H.6.9</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>A11.54314</td>
-                    <td>A11.4105</td>
-                    <td>Pemrograman Berbasis Web</td>
-                    <td>2</td>
-                    <td>B</td>
-                    <td>Senin 14.10-16.20</td>
-                    <td>D.3.M</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>5</td>
-                    <td>A11.54403</td>
-                    <td>A11.4105</td>
-                    <td>Organisasi dan Arsitektur Komputer</td>
-                    <td>2</td>
-                    <td>B</td>
-                    <td>Selasa 07.00-09.30</td>
-                    <td>H.6.11</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>6</td>
-                    <td>AF201704</td>
-                    <td>A11.4105</td>
-                    <td>Organisasi dan Arsitektur Komputer</td>
-                    <td>2</td>
-                    <td>B</td>
-                    <td>Kamis 08.40-10.20</td>
-                    <td>D.2.G</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>7</td>
-                    <td>U201704</td>
-                    <td>A11.4MATR</td>
-                    <td>Pengantar Teknologi Informasi</td>
-                    <td>2</td>
-                    <td>B</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                    <td>-</td>
-                </tr>
+                <!-- Kepala Tabel -->
+                <thead>
+                    <tr id="tabel-head">
+                        <th id="tabel-no" rowspan="2">No</th>
+                        <th id="tabel-kmt" rowspan="2">KDMK</th>
+                        <th id="tabel-klp" rowspan="2">Kelompok</th>
+                        <th rowspan="2">Nama Mata Kuliah</th>
+                        <th rowspan="2">SKS</th>
+                        <th rowspan="2">Status</th>
+                        <th colspan="2">Jadwal 1</th>
+                        <th colspan="2">Jadwal 2</th>
+                    </tr>
+                    <tr id="tabel-head">
+                        <th>Hari</th>
+                        <th>Ruang</th>
+                        <th>Hari</th>
+                        <th>Ruang</th>
+                    </tr>
+                </thead>
+                <!-- Badan Tabel -->
+                <tbody>
+                    <tr>
+                        <td id="tabel-no">1</td>
+                        <td id="tabel-kmt">A11.54101</td>
+                        <td id="tabel-klp">A11.4105</td>
+                        <td>Kalkulus 1</td>
+                        <td>4</td>
+                        <td>B</td>
+                        <td>Rabu 08.40-10.20</td>
+                        <td>H.4.4</td>
+                        <td>Jumat 08.40-10.20</td>
+                        <td>H.4.7</td>
+                    </tr>
+                    <tr>
+                        <td id="tabel-no">2</td>
+                        <td id="tabel-kmt">A11.54105</td>
+                        <td id="tabel-klp">A11.4105</td>
+                        <td>Dasar Pemrograman</td>
+                        <td>4</td>
+                        <td>B</td>
+                        <td>Rabu 07.00-08.40</td>
+                        <td>H.4.4</td>
+                        <td>Senin 12.30-14.10</td>
+                        <td>D.2.H</td>
+                    </tr>
+                    <tr>
+                        <td id="tabel-no">3</td>
+                        <td id="tabel-kmt">A11.54302</td>
+                        <td id="tabel-klp">A11.4105</td>
+                        <td>Matematika Diskrit</td>
+                        <td>3</td>
+                        <td>B</td>
+                        <td>Selasa 09.30-12.00</td>
+                        <td>H.6.9</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td id="tabel-no">4</td>
+                        <td id="tabel-kmt">A11.54314</td>
+                        <td id="tabel-klp">A11.4105</td>
+                        <td>Pemrograman Berbasis Web</td>
+                        <td>2</td>
+                        <td>B</td>
+                        <td>Senin 14.10-16.20</td>
+                        <td>D.3.M</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td id="tabel-no">5</td>
+                        <td id="tabel-kmt">A11.54403</td>
+                        <td id="tabel-klp">A11.4105</td>
+                        <td>Organisasi dan Arsitektur Komputer</td>
+                        <td>2</td>
+                        <td>B</td>
+                        <td>Selasa 07.00-09.30</td>
+                        <td>H.6.11</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td id="tabel-no">6</td>
+                        <td id="tabel-kmt">AF201704</td>
+                        <td id="tabel-klp">A11.4105</td>
+                        <td>Organisasi dan Arsitektur Komputer</td>
+                        <td>2</td>
+                        <td>B</td>
+                        <td>Kamis 08.40-10.20</td>
+                        <td>D.2.G</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td id="tabel-no">7</td>
+                        <td id="tabel-kmt">U201704</td>
+                        <td id="tabel-klp">A11.4MATR</td>
+                        <td>Pengantar Teknologi Informasi</td>
+                        <td>2</td>
+                        <td>B</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
             </table>
         </div>
     </nav>
 
     <!-- Footer -->
     <footer>
-        <div>© 2021 Made with 💙 from Pati</div>
+        <div>© 2021 Made with 💙 by Arif Saputra from Pati</div>
     </footer>
 </body>
 </html>
