@@ -196,10 +196,10 @@
         <!-- Bagian Video, Audio, Plug-Ins dan Youtube -->
         <div id="saya">
             <!-- Judul Siapa Saya? -->
-            <h2 id="judul-saya">Siapa Saya?</h2>
+            <h2 id="judul">Siapa Saya?</h2>
             <!-- Video Perkenalan Siapa Saya-->
             <div id="video-perkenalan">
-                <video width="200px" height="300px" autoplay loop controls>
+                <video width="200px" height="300px" loop controls autoplay>
                     <source src="Intro.mp4" type="video/mp4">
                 </video>
             </div>
@@ -220,7 +220,7 @@
             </div>
 
             <!-- Judul Audio -->
-            <h2 id="judul-audio">Music Favorit Saya</h2>
+            <h2 id="judul">Music Favorit Saya</h2>
             <!-- Audio Musik Favorit Saya -->
             <div id="audio-favorit">
                 <audio controls>
@@ -229,24 +229,43 @@
             </div>
 
             <!-- Judul Portofolio -->
-            <h2 id="judul-portofolio">Portofolio</h2>
+            <h2 id="judul">Portofolio</h2>
             <!-- Plug-Ins Portofolio -->
             <div id="portofolio">
                 <!-- Portofolio Web -->
                 <div id="portofolio-web">
-                    <h3 id="web">Portofolio Web Sederhana</h3>
+                    <h3 id="list-portofolio">Portofolio Website</h3>
                     <!-- Plug-Ins HTML -->
-                    <embed src="Plugin-html/Index.html">
+                    <embed id="website" src="Plugin-html/Index.html">
                 </div>
                 <!-- Portofolio Dokumen -->
                 <div id="portofolio-dokumen">
-                    <h3 id="doc">Portofolio Sertifikat</h3>
+                    <h3 id="list-portofolio">Portofolio Sertifikat</h3>
                     <!-- Plug-Ins .pdf -->
-                    <embed src="sertifikat.pdf" type="application/pdf">
+                    <embed id="dokumen" src="sertifikat.pdf" type="application/pdf">
                 </div>
-                
-                <!-- Plug-Ins .img -->
-                <!-- Plug-Ins  -->
+                <!-- Portofolio Gambar -->
+                <div id="portofolio-gambar">
+                    <h3 id="list-portofolio">Portofolio Gambar</h3>
+                    <!-- Plug-Ins .img -->
+                    <embed id="gambar" src="Plugin-gambar/gambar1.jpg" type="image/jpeg">
+                    <embed id="gambar" src="Plugin-gambar/gambar2.jpg" type="image/jpeg">
+                    <embed id="gambar" src="Plugin-gambar/gambar3.jpg" type="image/jpeg">
+                    <embed id="gambar" src="Plugin-gambar/gambar4.jpg" type="image/jpeg">
+                </div>
+                <div id="portofolio-media">
+                    <h3 id="list-portofolio">Portofolio Sosial Media</h3>
+                    <!-- Plug-Ins Link Sosial Media -->
+                    <embed id="media" src="https://lynk.id/arif_sptrra">
+                </div>
+            </div>
+
+            <!-- Judul Video Youtube -->
+            <h2 id="judul">Ayo Patuhi Protokol Kesehatan!</h2>
+            <!-- Video YouTube -->
+            <div id="youtube">
+                <iframe id="video-youtube" width="1000" height="560" src="https://www.youtube.com/embed/_g-EahGSOxg" frameborder="0">
+                </iframe>
             </div>
         </div>
         
