@@ -45,16 +45,17 @@ input {
   width: 99%;
 }
 footer {
-  margin-top: 40px;
+  margin: 20px 0px;
   text-align: center;
-  padding: 50px;
+  padding: 20px;
 }
 button {
   margin-top: 8px;
   padding: 10px;
-  margin-right: 4px;
+  margin-left: 10px;
   border: 0px;
   border-radius: 5px;
+  float: right;
 }
 #daftar {
   background-color: #428bff;
@@ -68,4 +69,11 @@ button {
 }
 #reset:hover {
   background-color: #ddd;
+}
+hr {
+  margin-top: 20px;
+  height: 2px;
+  border: none;
+  color: #428bff;
+  background-color: #428bff;
 }
