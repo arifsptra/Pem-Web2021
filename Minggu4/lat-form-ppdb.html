@@ -72,36 +72,37 @@
         <tr>
           <td colspan="2">
             <label for="jenis-kelamin">Jenis Kelamin</label><br />
-            <input type="radio" name="laki" id="laki" style="width: 10px" />
+            <input type="radio" name="jenis-kelamin" id="laki" style="width: 10px" />
             <label for="laki">Laki-Laki</label>
-            <input type="radio" name="perempuan" id="perempuan" style="width: 10px" />
+            <input type="radio" name="jenis-kelamin" id="perempuan" style="width: 10px" />
             <label for="perempuan">Perempuan</label>
           </td>
         </tr>
         <tr>
           <td>
             <label for="alamat">Alamat</label>
-            <textarea name="alamat" id="alamat" cols="50" rows="8" style="font-size: 18px; border-radius: 10px; margin-top: 4px; padding-left: 8px" placeholder="Masukkan Alamat Lengkap Anda"></textarea>
+            <textarea name="alamat" id="alamat" cols="50" rows="4" style="font-size: 18px; border-radius: 10px; margin-top: 4px; padding-left: 8px; border: 1px solid #ddd" placeholder="Masukkan Alamat Lengkap Anda"></textarea>
           </td>
-          <td>
+          <td id="alamat">
             <label for="provinsi">Provinsi</label>
-            <input list="provinsi" />
+            <input list="provinsi" placeholder="Pilih Provinsi" />
             <datalist id="provinsi">
-              <option id="jabar" value="Jawa Barat"></option>
-              <option id="jateng" value="Jawa Tengah"></option>
-              <option id="jatim" value="Jawa Timur"></option>
+              <option value="Jawa Barat"></option>
+              <option value="Jawa Tengah"></option>
+              <option value="Jawa Timur"></option>
             </datalist>
-            <label for="kabupaten">Kabupaten</label>
-            <input list="kabupaten" />
-            <datalist id="kabupaten">
-              <option id="jabar" value="Bandung"></option>
-              <option id="jateng" value="Pati"></option>
-              <option id="Jatim" value="Malang"></option>
-            </datalist>
+            <label for="kabupaten">Kabupaten/Kota</label>
+            <input type="text" name="kabupaten" id="kabupaten" placeholder="Masukkan Kabupaten/Kota" />
             <label for="kecamatan">Kecamatan</label>
-            <input list="kecamatan" />
-            <label for="desa">Desa/Kel</label>
-            <input list="desa" />
+            <input type="text" name="kecamatan" id="kecamatan" placeholder="Masukkan Kecamatan" />
+            <label for="desa">Desa/Kelurahan</label>
+            <input type="text" name="desa" id="desa" placeholder="Masukkan Desa/Kelurahan" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="email">Email Aktif</label>
+            <input type="email" name="email" id="email" placeholder="Masukkan E-Mail" />
           </td>
         </tr>
       </table>
