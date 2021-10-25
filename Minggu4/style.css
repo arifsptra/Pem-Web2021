@@ -10,7 +10,7 @@ h2 {
   margin-top: 2px;
   margin-bottom: 2px;
   font-size: 22px;
-  background-color: #038cfc;
+  background-color: #b7b5b3;
   color: #fff;
   padding: 6px 10px;
   border-radius: 10px;
@@ -29,7 +29,7 @@ table {
   font-weight: bold;
 }
 input {
-  margin-top: 2px;
+  margin-top: 4px;
   padding: 6px 0px;
   padding-left: 6px;
   border: 1px solid #ddd;

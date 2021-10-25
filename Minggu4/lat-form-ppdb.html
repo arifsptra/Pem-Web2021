@@ -23,19 +23,19 @@
         <tr>
           <td colspan="2">
             <label for="nisn">Nomor Induk Siswa Nasional</label><br />
-            <input type="number" id="nisn" placeholder="Masukkan Nomor Induk Siswa Nasional" />
+            <input type="number" id="nisn" name="nisn" placeholder="Masukkan Nomor Induk Siswa Nasional" />
           </td>
         </tr>
         <tr>
           <td colspan="2">
             <label for="asal-sekolah">Asal Sekolah</label><br />
-            <input type="text" id="asal-sekolah" placeholder="Masukkan Asal Sekolah" />
+            <input type="text" id="asal-sekolah" name="asal" placeholder="Masukkan Asal Sekolah" />
           </td>
         </tr>
         <tr>
           <td>
             <label for="tahun-lulus">Tahun Lulus</label>
-            <input type="number" id="tahun-lulus" placeholder="Masukkan Tahun Lulus" />
+            <input type="number" id="tahun-lulus" name="lulus" placeholder="Masukkan Tahun Lulus" />
           </td>
           <td>
             <label for="lampiran-ijazah">Lampirkan File Fotocopy Ijazah</label>
@@ -46,26 +46,62 @@
         <tr>
           <td colspan="2"><h2>Data Calon Peserta</h2></td>
         </tr>
+        <!-- Body Data Calon Peserta -->
         <tr>
           <td colspan="2">
-            <label for="nama-lengkap">Nama Lengkap</label>
-            <input type="text" id="nama-lengkap" placeholder="Masukkan Nama Lengkap" />
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan Nama Lengkap" />
           </td>
         </tr>
         <tr>
           <td colspan="2">
             <label for="nik">Nomor Induk Keluarga</label>
-            <input type="number" id="nik" placeholder="Masukkan Nomor Induk Keluarga" />
+            <input type="number" id="nik" name="nik" placeholder="Masukkan Nomor Induk Keluarga" />
           </td>
         </tr>
         <tr>
           <td>
             <label for="tempat-lahir">Tempat Lahir</label>
-            <input type="date" name="tempat-lahir" id="tempat-lahir" />
+            <input type="date" name="lahir" id="tempat-lahir" />
           </td>
           <td>
             <label for="lampiran-akte">Lampirkan File Fotocopy Akta Kelahiran yang Telah dilegalisir</label>
-            <input type="file" id="lampiran-akte" />
+            <input type="file" id="lampiran-akte" name="akte" style="border: none" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <label for="jenis-kelamin">Jenis Kelamin</label><br />
+            <input type="radio" name="laki" id="laki" style="width: 10px" />
+            <label for="laki">Laki-Laki</label>
+            <input type="radio" name="perempuan" id="perempuan" style="width: 10px" />
+            <label for="perempuan">Perempuan</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="alamat">Alamat</label>
+            <textarea name="alamat" id="alamat" cols="50" rows="8" style="font-size: 18px; border-radius: 10px; margin-top: 4px; padding-left: 8px" placeholder="Masukkan Alamat Lengkap Anda"></textarea>
+          </td>
+          <td>
+            <label for="provinsi">Provinsi</label>
+            <input list="provinsi" />
+            <datalist id="provinsi">
+              <option id="jabar" value="Jawa Barat"></option>
+              <option id="jateng" value="Jawa Tengah"></option>
+              <option id="jatim" value="Jawa Timur"></option>
+            </datalist>
+            <label for="kabupaten">Kabupaten</label>
+            <input list="kabupaten" />
+            <datalist id="kabupaten">
+              <option id="jabar" value="Bandung"></option>
+              <option id="jateng" value="Pati"></option>
+              <option id="Jatim" value="Malang"></option>
+            </datalist>
+            <label for="kecamatan">Kecamatan</label>
+            <input list="kecamatan" />
+            <label for="desa">Desa/Kel</label>
+            <input list="desa" />
           </td>
         </tr>
       </table>
