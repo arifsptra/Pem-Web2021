@@ -64,7 +64,6 @@ echo "<br>";
 echo "Email = ";
 print_r($_POST['email']);
 echo "<h2>Data Orang Tua</h2>";
-echo "<br>";
 echo "NIK = ";
 print_r($_POST['nik']);
 echo "<br>";
@@ -103,7 +102,6 @@ print_r($_POST['kaborangtua']);
 echo "<br>";
 echo "Provinsi Orang Tua = ";
 print_r($_POST['provorangtua']);
-
 echo "</body>";
 echo "</html>";
 ?>
