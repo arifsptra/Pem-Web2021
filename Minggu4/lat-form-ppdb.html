@@ -12,7 +12,7 @@
     <!-- Header Formulir Pendaftaran -->
     <h1>Formulir Pendaftaran PPDB Jalur Zonasi Tahun 2021</h1>
     <!-- Start Form -->
-    <form action="proses.php" target="_blank" method="post" id="form" name="form-ppdb">
+    <form action="proses.php" target="_blank" method="POST" id="form" name="form-ppdb">
       <!-- Start Table -->
       <table id="tabel-form">
         <!-- First Table Header (Info Pendaftaran)-->
@@ -28,18 +28,18 @@
         </tr>
         <tr>
           <td colspan="2">
-            <label for="asal-sekolah">Asal Sekolah</label><br />
-            <input type="text" id="asal-sekolah" name="asal" placeholder="Masukkan Asal Sekolah" required />
+            <label for="asalsekolah">Asal Sekolah</label><br />
+            <input type="text" id="asalsekolah" name="asalsekolah" placeholder="Masukkan Asal Sekolah" required />
           </td>
         </tr>
         <tr>
           <td>
             <label for="tahun-lulus">Tahun Lulus</label>
-            <input type="number" id="tahun-lulus" name="lulus" placeholder="Masukkan Tahun Lulus" maxlength="4" required />
+            <input type="number" id="tahun_lulus" name="lulus" placeholder="Masukkan Tahun Lulus" maxlength="4" required />
           </td>
           <td>
-            <label for="lampiran-ijazah">Lampirkan File Fotocopy Ijazah</label>
-            <input type="file" name="ijazah" id="lampiran-ijazah" style="border: none" required />
+            <label for="lampiranijazah">Lampirkan File Fotocopy Ijazah</label>
+            <input type="file" name="lampiranijazah" id="lampiranijazah" style="border: none" required />
           </td>
         </tr>
         <!-- Second Table Header (Data Calon Peserta) -->
@@ -49,8 +49,8 @@
         <!-- Body Data Calon Peserta -->
         <tr>
           <td colspan="2">
-            <label for="nama-lengkap">Nama Lengkap</label>
-            <input type="text" id="nama-lengkap" name="nama-lengkap" placeholder="Masukkan Nama Lengkap" required />
+            <label for="namalengkap">Nama Lengkap</label>
+            <input type="text" id="namalengkap" name="namalengkap" placeholder="Masukkan Nama Lengkap" required />
           </td>
         </tr>
         <tr>
@@ -61,31 +61,31 @@
         </tr>
         <tr>
           <td>
-            <label for="tempat-lahir">Tempat Lahir</label>
-            <input type="text" name="tempat-lahir" id="tempat-lahir" placeholder="Masukkan Tempat Lahir" required />
-            <label for="tanggal-lahir">Tanggal Lahir</label>
-            <input type="date" name="tanggal-lahir" id="tanggal-lahir" max="2004-01-11" min="2000-01-11" required />
+            <label for="tempatlahir">Tempat Lahir</label>
+            <input type="text" name="tempatlahir" id="tempatlahir" placeholder="Masukkan Tempat Lahir" required />
+            <label for="tanggallahir">Tanggal Lahir</label>
+            <input type="date" name="tanggallahir" id="tanggallahir" max="2004-01-11" min="2000-01-11" required />
           </td>
           <td>
-            <label for="lampiran-akte">Lampirkan File Fotocopy Akta Kelahiran yang Telah dilegalisir</label>
-            <input type="file" id="lampiran-akte" name="lampiran-akte" style="border: none" required />
+            <label for="lampiranakte">Lampirkan File Fotocopy Akta Kelahiran yang Telah dilegalisir</label>
+            <input type="file" id="lampiranakte" name="lampiranakte" style="border: none" required />
           </td>
         </tr>
         <tr>
           <td colspan="2">
-            <label for="jenis-kelamin">Jenis Kelamin</label><br />
-            <input type="radio" name="jenis-kelamin" id="laki" value="Laki-Laki" style="width: 10px" required />
+            <label for="jeniskelamin">Jenis Kelamin</label><br />
+            <input type="radio" name="jeniskelamin" id="laki" value="Laki-Laki" style="width: 10px" required />
             <label for="laki">Laki-Laki</label>
-            <input type="radio" name="jenis-kelamin" id="perempuan" value="Perempuan" style="width: 10px" required />
+            <input type="radio" name="jeniskelamin" id="perempuan" value="Perempuan" style="width: 10px" required />
             <label for="perempuan">Perempuan</label>
           </td>
         </tr>
         <tr>
           <td>
-            <label for="alamat-peserta">Alamat</label>
+            <label for="alamatpeserta">Alamat</label>
             <textarea
-              name="alamat-peserta"
-              id="alamat-peserta"
+              name="alamatpeserta"
+              id="alamatpeserta"
               cols="50"
               rows="4"
               style="font-size: 16px; border-radius: 10px; margin-top: 4px; padding-left: 8px; border: 1px solid #ddd"
@@ -93,20 +93,20 @@
               required
             ></textarea>
           </td>
-          <td id="alamat-peserta">
-            <label for="prov-peserta">Provinsi</label>
-            <input list="prov-peserta" placeholder="Pilih Provinsi" required />
-            <datalist id="prov-peserta">
+          <td id="alamatpeserta">
+            <label for="provpeserta">Provinsi</label>
+            <input list="provpeserta" placeholder="Pilih Provinsi" required />
+            <datalist id="provpeserta">
               <option value="Jawa Barat"></option>
               <option value="Jawa Tengah"></option>
               <option value="Jawa Timur"></option>
             </datalist>
-            <label for="kab-peserta">Kabupaten/Kota</label>
-            <input type="text" name="kab-peserta" id="kab-peserta" placeholder="Masukkan Kabupaten/Kota" required />
+            <label for="kabpeserta">Kabupaten/Kota</label>
+            <input type="text" name="kabpeserta" id="kabpeserta" placeholder="Masukkan Kabupaten/Kota" required />
             <label for="kec-peserta">Kecamatan</label>
-            <input type="text" name="kec-peserta" id="kec-peserta" placeholder="Masukkan Kecamatan" required />
-            <label for="desa-peserta">Desa/Kelurahan</label>
-            <input type="text" name="desa-peserta" id="desa-peserta" placeholder="Masukkan Desa/Kelurahan" required />
+            <input type="text" name="kecpeserta" id="kecpeserta" placeholder="Masukkan Kecamatan" required />
+            <label for="desapeserta">Desa/Kelurahan</label>
+            <input type="text" name="desapeserta" id="desapeserta" placeholder="Masukkan Desa/Kelurahan" required />
           </td>
         </tr>
         <tr>
@@ -125,21 +125,21 @@
             <input type="number" name="nokk" id="nokk" placeholder="Masukkan Nomor Kartu Keluarga" required />
           </td>
           <td>
-            <label for="lampiran-kk">Lampirkan File Fotocopy Kartu Keluarga</label>
-            <input type="file" name="lampiran-kk" id="lampiran-kk" style="border: none" required />
+            <label for="lampirankk">Lampirkan File Fotocopy Kartu Keluarga</label>
+            <input type="file" name="lampirankk" id="lampirankk" style="border: none" required />
           </td>
         </tr>
         <tr>
           <td colspan="2">
-            <label for="nama-ayah">Nama Ayah Kandung</label>
-            <input type="text" name="nama-ayah" id="nama-ayah" placeholder="Masukkan Nama Ayah Kandung" required />
+            <label for="namaayah">Nama Ayah Kandung</label>
+            <input type="text" name="namaayah" id="namaayah" placeholder="Masukkan Nama Ayah Kandung" required />
           </td>
         </tr>
         <tr>
           <td>
-            <label for="agama-ayah">Agama</label>
-            <input list="agama-ayah" placeholder="Pilih Agama" required />
-            <datalist id="agama-ayah">
+            <label for="agamaayah">Agama</label>
+            <input list="agamaayah" placeholder="Pilih Agama" required />
+            <datalist id="agamaayah">
               <option value="Islam"></option>
               <option value="Kristen"></option>
               <option value="Protestan"></option>
@@ -150,21 +150,21 @@
             </datalist>
           </td>
           <td>
-            <label for="pekerjaan-ayah">Pekerjaan</label>
-            <input type="text" id="pekerjaan-ayah" placeholder="Masukkan Pekerjaan Ayah" required />
+            <label for="pekerjaanayah">Pekerjaan</label>
+            <input type="text" id="pekerjaanayah" placeholder="Masukkan Pekerjaan Ayah" required />
           </td>
         </tr>
         <tr>
           <td colspan="2">
-            <label for="nama-ibu">Nama Ibu Kandung</label>
-            <input type="text" name="nama-ibu" id="nama-ibu" placeholder="Masukkan Nama Ibu Kandung" required />
+            <label for="namaibu">Nama Ibu Kandung</label>
+            <input type="text" name="namaibu" id="namaibu" placeholder="Masukkan Nama Ibu Kandung" required />
           </td>
         </tr>
         <tr>
           <td>
-            <label for="agama-ibu">Agama</label>
-            <input list="agama-ibu" placeholder="Pilih Agama" required />
-            <datalist id="agama-ibu">
+            <label for="agamaibu">Agama</label>
+            <input list="agamaibu" placeholder="Pilih Agama" required />
+            <datalist id="agamaibu">
               <option value="Islam"></option>
               <option value="Kristen"></option>
               <option value="Protestan"></option>
@@ -175,16 +175,16 @@
             </datalist>
           </td>
           <td>
-            <label for="pekerjaan-ibu">Pekerjaan</label>
-            <input type="text" id="pekerjaan-ibu" placeholder="Masukkan Pekerjaan Ibu" required />
+            <label for="pekerjaanibu">Pekerjaan</label>
+            <input type="text" id="pekerjaanibu" placeholder="Masukkan Pekerjaan Ibu" required />
           </td>
         </tr>
         <tr>
           <td>
-            <label for="alamat-orangtua">Alamat</label>
+            <label for="alamatorangtua">Alamat</label>
             <textarea
-              name="alamat-orangtua"
-              id="alamat-orangtua"
+              name="alamatorangtua"
+              id="alamatorangtua"
               cols="50"
               rows="4"
               style="font-size: 16px; border-radius: 10px; margin-top: 4px; padding-left: 8px; border: 1px solid #ddd"
@@ -192,25 +192,25 @@
               required
             ></textarea>
           </td>
-          <td id="alamat-orangtua">
-            <label for="provinsi-orangtua">Provinsi</label>
-            <input list="provinsi-orangtua" placeholder="Pilih Provinsi" required />
-            <datalist id="provinsi-orangtua">
+          <td id="alamatorangtua">
+            <label for="provorangtua">Provinsi</label>
+            <input list="provorangtua" placeholder="Pilih Provinsi" required />
+            <datalist id="provorangtua">
               <option value="Jawa Barat"></option>
               <option value="Jawa Tengah"></option>
               <option value="Jawa Timur"></option>
             </datalist>
-            <label for="kab-orangtua">Kabupaten/Kota</label>
-            <input type="text" name="kab-orangtua" id="kab-orangtua" placeholder="Masukkan Kabupaten/Kota" required />
+            <label for="kaborangtua">Kabupaten/Kota</label>
+            <input type="text" name="kaborangtua" id="kaborangtua" placeholder="Masukkan Kabupaten/Kota" required />
             <label for="kec-orangtua">Kecamatan</label>
-            <input type="text" name="kec-orangtua" id="kec-orangtua" placeholder="Masukkan Kecamatan" required />
-            <label for="desa-orangtua">Desa/Kelurahan</label>
-            <input type="text" name="desa-orangtua" id="desa-orangtua" placeholder="Masukkan Desa/Kelurahan" required />
+            <input type="text" name="kecorangtua" id="kecorangtua" placeholder="Masukkan Kecamatan" required />
+            <label for="desaorangtua">Desa/Kelurahan</label>
+            <input type="text" name="desaorangtua" id="desaorangtua" placeholder="Masukkan Desa/Kelurahan" required />
           </td>
         </tr>
         <tr>
           <td colspan="2">
-            <button id="daftar" type="submit">Daftar</button>
+            <button id="daftar" name="daftar" type="submit">Daftar</button>
             <button id="reset" type="reset">Reset</button>
           </td>
         </tr>
