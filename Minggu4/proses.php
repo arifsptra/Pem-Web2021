@@ -1,9 +1,20 @@
 <?php
 echo "<html>";
 echo "<body>";
+echo "<style>h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 26px;
+  }
+  h2 {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 22px;
+    border-radius: 10px;
+  }</style>";
 echo "<h1>Data Pendaftar PPDB Jalur Zonasi Tahun 2021</h1>";
 echo "<h2>Info Pendaftaran</h2>";
-echo "<link rel=stylesheet href=style.css />";
 echo "NISN = ";
 print_r($_POST['nisn']);
 echo "<br>";
@@ -92,6 +103,7 @@ print_r($_POST['kaborangtua']);
 echo "<br>";
 echo "Provinsi Orang Tua = ";
 print_r($_POST['provorangtua']);
+
 echo "</body>";
 echo "</html>";
 ?>
