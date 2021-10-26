@@ -34,14 +34,15 @@
         </tr>
         <tr>
           <td>
-            <label for="tahun-lulus">Tahun Lulus</label>
-            <input type="number" id="tahun_lulus" name="lulus" placeholder="Masukkan Tahun Lulus" maxlength="4" required />
+            <label for="tahunlulus">Tahun Lulus</label>
+            <input type="number" id="tahunlulus" name="tahunlulus" placeholder="Masukkan Tahun Lulus" maxlength="4" required />
           </td>
           <td>
             <label for="lampiranijazah">Lampirkan File Fotocopy Ijazah</label>
             <input type="file" name="lampiranijazah" id="lampiranijazah" style="border: none" required />
           </td>
         </tr>
+
         <!-- Second Table Header (Data Calon Peserta) -->
         <tr>
           <td colspan="2"><h2>Data Calon Peserta</h2></td>
@@ -95,7 +96,7 @@
           </td>
           <td id="alamatpeserta">
             <label for="provpeserta">Provinsi</label>
-            <input list="provpeserta" placeholder="Pilih Provinsi" required />
+            <input list="provpeserta" name="provpeserta" placeholder="Pilih Provinsi" required />
             <datalist id="provpeserta">
               <option value="Jawa Barat"></option>
               <option value="Jawa Tengah"></option>
@@ -138,7 +139,7 @@
         <tr>
           <td>
             <label for="agamaayah">Agama</label>
-            <input list="agamaayah" placeholder="Pilih Agama" required />
+            <input list="agamaayah" name="agamaayah" placeholder="Pilih Agama" required />
             <datalist id="agamaayah">
               <option value="Islam"></option>
               <option value="Kristen"></option>
@@ -151,7 +152,7 @@
           </td>
           <td>
             <label for="pekerjaanayah">Pekerjaan</label>
-            <input type="text" id="pekerjaanayah" placeholder="Masukkan Pekerjaan Ayah" required />
+            <input type="text" id="pekerjaanayah" name="pekerjaanayah" placeholder="Masukkan Pekerjaan Ayah" required />
           </td>
         </tr>
         <tr>
@@ -163,7 +164,7 @@
         <tr>
           <td>
             <label for="agamaibu">Agama</label>
-            <input list="agamaibu" placeholder="Pilih Agama" required />
+            <input list="agamaibu" name="agamaibu" placeholder="Pilih Agama" required />
             <datalist id="agamaibu">
               <option value="Islam"></option>
               <option value="Kristen"></option>
@@ -176,7 +177,7 @@
           </td>
           <td>
             <label for="pekerjaanibu">Pekerjaan</label>
-            <input type="text" id="pekerjaanibu" placeholder="Masukkan Pekerjaan Ibu" required />
+            <input type="text" id="pekerjaanibu" name="pekerjaanibu" placeholder="Masukkan Pekerjaan Ibu" required />
           </td>
         </tr>
         <tr>
@@ -194,7 +195,7 @@
           </td>
           <td id="alamatorangtua">
             <label for="provorangtua">Provinsi</label>
-            <input list="provorangtua" placeholder="Pilih Provinsi" required />
+            <input list="provorangtua" name="provorangtua" placeholder="Pilih Provinsi" required />
             <datalist id="provorangtua">
               <option value="Jawa Barat"></option>
               <option value="Jawa Tengah"></option>
