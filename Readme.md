@@ -43,3 +43,18 @@ _Senin, 25 Oktober 2021_
   - HTML Input Types
   - HTML Input Atributes
   - HTML Input Form Atributes
+
+## Materi Minggu 5
+
+_Senin, 1 November 2021_
+
+- Praktikum
+  - layout.html
+  - summary.html
+  - time.html
+  - audio.html
+  - audio2.html
+  - video.html
+  - videogif.html
+  - videosubtitle.html
+  - videoyoutube.html
