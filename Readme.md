@@ -26,35 +26,38 @@ _Senin, 11 Oktober 2021_
 
 _Senin, 18 Oktober 2021_
 
-- Pengelolaan File Multimedia pada Halaman HTML
-  - HTML Video
-  - HTML Audio
-  - HTML Plugin
-  - HTML Youtube
+Pengelolaan File Multimedia pada Halaman HTML
+
+- HTML Video
+- HTML Audio
+- HTML Plugin
+- HTML Youtube
 
 ## Materi Minggu 4
 
 _Senin, 25 Oktober 2021_
 
-- Web Form HTML 5
-  - HTML Form
-  - HTML Form Atributes
-  - HTML Form Elements
-  - HTML Input Types
-  - HTML Input Atributes
-  - HTML Input Form Atributes
+Web Form HTML 5
+
+- HTML Form
+- HTML Form Atributes
+- HTML Form Elements
+- HTML Input Types
+- HTML Input Atributes
+- HTML Input Form Atributes
 
 ## Materi Minggu 5
 
 _Senin, 1 November 2021_
 
-- Praktikum
-  - layout.html
-  - summary.html
-  - time.html
-  - audio.html
-  - audio2.html
-  - video.html
-  - videogif.html
-  - videosubtitle.html
-  - videoyoutube.html
+Praktikum
+
+- layout.html
+- summary.html
+- time.html
+- audio.html
+- audio2.html
+- video.html
+- videogif.html
+- videosubtitle.html
+- videoyoutube.html
