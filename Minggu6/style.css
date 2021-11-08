@@ -29,6 +29,10 @@ li ul {
   float: left;
   padding-right: 10px;
 }
+li ul a {
+  text-decoration: none;
+  color: #000;
+}
 /* Style Button Navbar */
 #button {
   padding-top: 18px;
