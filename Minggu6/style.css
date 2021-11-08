@@ -151,3 +151,13 @@ li ul a {
   background: #3d7b3e;
   border-radius: 30px;
 }
+/* Style Pelayanan */
+#pelayanan {
+  background-color: #fff;
+  height: 390px;
+}
+#pelayanan h2 {
+  text-align: center;
+  color: #3d7b3e;
+  padding-top: 21px;
+}
