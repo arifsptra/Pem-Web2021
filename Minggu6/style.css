@@ -95,3 +95,14 @@ li ul {
   font-size: 24px;
   padding-top: 20px;
 }
+/* Style Produk */
+#produk {
+  height: 534px;
+  background-color: #f9fbfb;
+}
+#produk h2 {
+  text-align: center;
+  color: #3d7b3e;
+  padding-top: 21px;
+  font-size: 28px;
+}
