@@ -22,6 +22,8 @@ _Senin, 11 Oktober 2021_
 - Element Basic HTML 5
 - Semantic Element HTML 5
 
+URL: [https://arifsptra.github.io/Pem-Web2021/Minggu2/biodata.html]
+
 ## Materi Minggu 3
 
 _Senin, 18 Oktober 2021_
@@ -32,6 +34,8 @@ Pengelolaan File Multimedia pada Halaman HTML
 - HTML Audio
 - HTML Plugin
 - HTML Youtube
+
+URL: [https://arifsptra.github.io/Pem-Web2021/Minggu3/biodata.html]
 
 ## Materi Minggu 4
 
@@ -45,6 +49,8 @@ Web Form HTML 5
 - HTML Input Types
 - HTML Input Atributes
 - HTML Input Form Atributes
+
+URL: [https://arifsptra.github.io/Pem-Web2021/Minggu4/lat-form-ppdb.html]
 
 ## Materi Minggu 5
 
@@ -61,3 +67,12 @@ Praktikum
 - videogif.html
 - videosubtitle.html
 - videoyoutube.html
+
+## Materi Minggu 6
+
+_Senin, 8 November 2021_
+
+- Link Desain Website Menggunakan Figma<br>
+  URL: [https://www.figma.com/file/YPpR6rR8wV7DUERrHtc7k1/kutani?node-id=0%3A1]
+- Praktikum Membuat Website Statis<br>
+  URL: [https://arifsptra.github.io/Pem-Web2021/Minggu6/]
