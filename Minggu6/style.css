@@ -80,3 +80,18 @@ li ul {
   color: #3d7b3e;
   background-color: #fff;
 }
+/* Style About */
+#tentang-kami {
+  height: 218px;
+  background-color: #fff;
+  text-align: center;
+}
+#tentang-kami h2 {
+  font-size: 28px;
+  color: #3d7b3e;
+  padding-top: 21px;
+}
+#tentang-kami p {
+  font-size: 24px;
+  padding-top: 20px;
+}
