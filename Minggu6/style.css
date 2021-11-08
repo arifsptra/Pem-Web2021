@@ -110,10 +110,10 @@ li ul a {
   padding-top: 21px;
   font-size: 28px;
 }
+/* Style Produk List */
 #produk-list {
   float: left;
-  position: absolute;
-  left: 10%;
+  padding-left: 9.5%;
 }
 #produk1 {
   float: left;
@@ -133,8 +133,21 @@ li ul a {
   font-size: 18px;
   padding-bottom: 6px;
 }
+/* Style Produk Button */
 #produk1 a {
   text-decoration: none;
   color: #3d7b3e;
   font-weight: bold;
+}
+#button-lihatproduklainnya {
+  position: absolute;
+  color: #fff;
+  left: 533px;
+  top: 1257px;
+  padding: 5px 30px;
+  font-size: 24px;
+  text-decoration: none;
+  border: 2px solid #3d7b3e;
+  background: #3d7b3e;
+  border-radius: 30px;
 }
