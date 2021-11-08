@@ -23,11 +23,11 @@ li {
   float: left;
   font-size: 20px;
   padding-top: 18px;
-  padding-left: 85px;
+  padding-left: 150px;
 }
 li ul {
   float: left;
-  padding-right: 50px;
+  padding-right: 10px;
 }
 /* Style Button Navbar */
 #button {
