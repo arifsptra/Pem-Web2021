@@ -110,3 +110,31 @@ li ul a {
   padding-top: 21px;
   font-size: 28px;
 }
+#produk-list {
+  float: left;
+  position: absolute;
+  left: 10%;
+}
+#produk1 {
+  float: left;
+  height: 350px;
+  width: 250px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-right: 32px;
+  margin-top: 20px;
+  text-align: center;
+}
+#produk1 img {
+  border-radius: 10px 10px 0px 0px;
+}
+#produk1 p {
+  font-size: 18px;
+  padding-bottom: 6px;
+}
+#produk1 a {
+  text-decoration: none;
+  color: #3d7b3e;
+  font-weight: bold;
+}
