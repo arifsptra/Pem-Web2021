@@ -219,3 +219,8 @@ li ul a {
   background-color: #3d7b3e;
   color: #fff;
 }
+/* Style Footer */
+footer {
+  background-color: #285028;
+  height: 334px;
+}
