@@ -174,7 +174,7 @@ li ul a {
 /* Style Kontak */
 #kontak {
   background-color: #f9fbfb;
-  height: 480px;
+  height: 450px;
 }
 #kontak h2 {
   text-align: center;
@@ -183,6 +183,7 @@ li ul a {
   padding-top: 21px;
 }
 #kontak-form {
+  max-width: 615px;
   padding-top: 20px;
   padding-left: 380px;
 }
@@ -205,4 +206,16 @@ li ul a {
   margin-top: 8px;
   border-radius: 6px;
   padding: 4px 8px;
+}
+#kontak-form #button-kirim {
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 20px;
+  float: right;
+  padding: 5px;
+  border: 1px solid #3d7b3e;
+  border-radius: 5px;
+  background-color: #3d7b3e;
+  color: #fff;
 }
