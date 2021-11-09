@@ -182,3 +182,27 @@ li ul a {
   font-size: 28px;
   padding-top: 21px;
 }
+#kontak-form {
+  padding-top: 20px;
+  padding-left: 380px;
+}
+#kontak-form label {
+  font-size: 18px;
+  font-weight: bold;
+}
+#kontak-form input {
+  width: 600px;
+  height: 30px;
+  border: 1px solid #f1f1f1;
+  border-radius: 6px;
+  margin-top: 8px;
+  margin-bottom: 10px;
+  padding: 2px 8px;
+}
+#kontak-form textarea {
+  width: 600px;
+  border: 1px solid #f1f1f1;
+  margin-top: 8px;
+  border-radius: 6px;
+  padding: 4px 8px;
+}
