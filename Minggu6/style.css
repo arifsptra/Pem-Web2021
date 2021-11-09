@@ -140,10 +140,10 @@ li ul a {
   font-weight: bold;
 }
 #button-lihatproduklainnya {
-  position: absolute;
+  float: right;
   color: #fff;
-  left: 533px;
-  top: 1257px;
+  margin-right: 510px;
+  margin-top: 30px;
   padding: 5px 30px;
   font-size: 24px;
   text-decoration: none;
