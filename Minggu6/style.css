@@ -224,3 +224,38 @@ footer {
   background-color: #285028;
   height: 334px;
 }
+#footer-logo {
+  margin-left: 50px;
+  padding-top: 50px;
+  float: left;
+}
+#footer-logo img {
+  width: 300px;
+}
+#footer-logo p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  padding-left: 10px;
+}
+#ikuti-kami {
+  float: right;
+  padding-top: 50px;
+  margin-right: 50px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+#ikuti-kami a img {
+  width: 30px;
+  float: right;
+  padding: 5px;
+}
+#copyright {
+  padding-top: 75px;
+  text-align: center;
+  float: right;
+  width: 100%;
+  color: #fff;
+  font-size: 24px;
+}
