@@ -171,3 +171,14 @@ li ul a {
 #pelayanan1 h3 {
   padding-bottom: 20px;
 }
+/* Style Kontak */
+#kontak {
+  background-color: #f9fbfb;
+  height: 480px;
+}
+#kontak h2 {
+  text-align: center;
+  color: #3d7b3e;
+  font-size: 28px;
+  padding-top: 21px;
+}
