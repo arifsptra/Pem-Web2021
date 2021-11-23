@@ -56,7 +56,7 @@ URL: [https://arifsptra.github.io/Pem-Web2021/Minggu4/lat-form-ppdb.html]
 
 _Senin, 1 November 2021_
 
-Praktikum
+Praktikum Semantik Element
 
 - layout.html
 - summary.html
@@ -70,9 +70,38 @@ Praktikum
 
 ## Materi Minggu 6
 
-_Senin, 8 November 2021_
+_Senin, 1 November 2021_
 
 - Link Desain Website Menggunakan Figma<br>
   URL: [https://www.figma.com/file/YPpR6rR8wV7DUERrHtc7k1/kutani?node-id=0%3A1]
 - Praktikum Membuat Website Statis<br>
   URL: [https://arifsptra.github.io/Pem-Web2021/Minggu6/]
+
+## Minggu 7 - UTS (Ujian Tengah Semester)
+
+_Senin, 8 November 2021_
+
+## Materi Minggu 8
+
+_Selasa, 23 November 2021_
+
+- Pengertian CSS (Cascading Style Sheets)
+- Versi CSS
+  1. CSS 1 : adalah versi pertama (17 Desember 1996)
+  2. CSS 2 : adalah versi ke-2 (Mei 1998)
+  3. CSS 2.1 : (7 juni 2011)
+  4. CSS 3 : (2012)
+  5. CSS 4 : masih dalam pengembangan.
+- Struktur Kode atau Syntax CSS
+  1. Selektor
+     1. Selector Tag
+     2. Selektor Class
+     3. Selektor ID
+     4. Selektor Atribut
+     5. Selektor Universal
+  2. Blok Deklarasi
+  3. Properti dan Nilai
+- Cara Penulisan CSS
+  1. Internal
+  2. External
+  3. Inline
