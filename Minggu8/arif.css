@@ -3,3 +3,9 @@
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+a[href="https://github.com/arifsptra"]
+{
+  color: blue;
+  text-decoration: none;
+  text-align: center;
+}
