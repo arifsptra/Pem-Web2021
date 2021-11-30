@@ -93,15 +93,53 @@ _Selasa, 23 November 2021_
   4. CSS 3 : (2012)
   5. CSS 4 : masih dalam pengembangan.
 - Struktur Kode atau Syntax CSS
-  1. Selektor
-     1. Selector Tag
-     2. Selektor Class
-     3. Selektor ID
-     4. Selektor Atribut
-     5. Selektor Universal
-  2. Blok Deklarasi
-  3. Properti dan Nilai
+  - Selektor
+    - Selector Tag
+    - Selektor Class
+    - Selektor ID
+    - Selektor Atribut
+    - Selektor Universal
+  - Blok Deklarasi
+  - Properti dan Nilai
 - Cara Penulisan CSS
-  1. Internal
-  2. External
-  3. Inline
+  - Internal
+  - External
+  - Inline
+
+## Materi Minggu 9
+
+_Selasa, 29 November 2021_
+
+- Border Radius
+- Gradient
+  - Linear Gradient
+  - Radial Gradient
+- Shadow
+  - Box Shadow
+  - Text Shadow
+- Transform
+  - Translate
+  - scale
+  - skewX
+  - skewY
+  - rotate
+  - matrix
+- Transition
+  - Transition Delay
+  - Transition Duration
+  - Transition Property
+  - Transition Timing Function
+- Animasi
+- CSS Preprocessor
+  - SASS
+  - LESS
+  - Stylus
+- Fitur CSS Preprocessor
+  - Variabel
+  - Mixins
+  - Extends
+  - Color Operations
+  - If/else statement
+  - Loops
+  - Math
+  - Imports
