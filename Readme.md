@@ -87,11 +87,11 @@ _Selasa, 23 November 2021_
 
 - Pengertian CSS (Cascading Style Sheets)
 - Versi CSS
-  1. CSS 1 : adalah versi pertama (17 Desember 1996)
-  2. CSS 2 : adalah versi ke-2 (Mei 1998)
-  3. CSS 2.1 : (7 juni 2011)
-  4. CSS 3 : (2012)
-  5. CSS 4 : masih dalam pengembangan.
+  - CSS 1 : adalah versi pertama (17 Desember 1996)
+  - CSS 2 : adalah versi ke-2 (Mei 1998)
+  - CSS 2.1 : (7 juni 2011)
+  - CSS 3 : (2012)
+  - CSS 4 : masih dalam pengembangan.
 - Struktur Kode atau Syntax CSS
   - Selektor
     - Selector Tag
