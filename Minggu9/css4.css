@@ -31,3 +31,15 @@ h2 {
   -webkit-transform: translate(50px, 100px); /* support Safari */
   transform: translate(50px, 100px); /* Standard syntax */
 }
+.kotak3 {
+  background-color: #fcfcfc;
+  padding: 10px;
+  float: right;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+
+  transform: -10px, 100px;
+  -ms-transform: translate(-10px, 100px);
+  -webkit-transform: translate(-10px, 100px);
+}
