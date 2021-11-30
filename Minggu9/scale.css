@@ -30,3 +30,14 @@ h2 {
   -webkit-transform: scale(2, 3); /* support Safari */
   transform: scale(2, 2); /* Standard syntax */
 }
+.kotak3 {
+  background: #fff;
+  padding: 20px;
+  float: right;
+  margin: 10px;
+  width: 150px;
+  height: 150px;
+  transform: scale(1.5, 1.5);
+  /* -ms-transform: scale(-2, -2);
+  -webkit-transform: scale(-2, -2); */
+}
