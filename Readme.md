@@ -108,7 +108,7 @@ _Selasa, 23 November 2021_
 
 ## Materi Minggu 9
 
-_Selasa, 29 November 2021_
+_Senin, 29 November 2021_
 
 - Border Radius
 - Gradient
