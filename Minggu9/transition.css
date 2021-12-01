@@ -7,7 +7,7 @@ h1 {
   color: #fff;
 }
 div {
-  margin: 10px;
+  margin: 10px auto;
 }
 .kotak {
   background: #fff;
@@ -20,13 +20,24 @@ div {
   width: 300px;
 }
 .kotak2 {
-  background: #fff;
-  width: 100px;
-  height: 100px;
   transition: width 1s, height 2s;
   -webkit-transition: width 1s, height 2s;
 }
 .kotak2:hover {
   width: 300px;
   height: 300px;
+}
+.kotak3 {
+  transition: width 0.5s, height 0.5s;
+}
+.kotak3:hover {
+  width: 200px;
+  height: 200px;
+}
+.kotak4 {
+  transition: width 1s, height 1.5s;
+}
+.kotak4:hover {
+  width: 500px;
+  height: 200px;
 }
