@@ -1,15 +1,21 @@
+* {
+  margin: 10px auto;
+}
 body {
-  background: #35a9db;
+  background: #000000;
   font-family: roboto;
   color: #fff;
 }
-h1 {
-  width: 550px;
+h1,
+h2 {
+  text-align: center;
 }
 .kotak {
-  background: blue;
+  background: white;
   width: 200px;
   height: 200px;
+}
+.kotak1 {
   animation-name: animasi_kotak;
   animation-duration: 2s;
 }
@@ -18,6 +24,22 @@ h1 {
     background: blue;
   }
   to {
-    background: red;
+    background: green;
+  }
+}
+.kotak2 {
+  animation-name: kotak2;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+@keyframes kotak2 {
+  from {
+    width: 100px;
+    height: 100px;
+  }
+  to {
+    width: 300px;
+    height: 300px;
+    background: blue;
   }
 }
