@@ -26,4 +26,15 @@ ul li a:hover {
   color: navy;
   font-weight: bold;
 }
+
+p {
+  border: 2px solid navy;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+p:hover {
+  background-color: navy;
+  color: #fff;
+}
 /*# sourceMappingURL=sass.css.map */

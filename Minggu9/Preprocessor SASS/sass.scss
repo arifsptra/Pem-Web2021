@@ -25,3 +25,17 @@ ul {
     }
   }
 }
+
+@mixin bordered($width, $radius) {
+  border: $width solid $colorNavy;
+  border-radius: $radius;
+  &:hover {
+    background-color: $colorNavy;
+    color: #fff;
+  }
+}
+
+p {
+  @include bordered(2px, 20px);
+  padding: 20px;
+}
