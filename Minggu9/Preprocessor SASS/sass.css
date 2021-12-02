@@ -1,4 +1,29 @@
+* {
+  margin: 10px auto;
+  max-width: 500px;
+}
+
 h1 {
   color: navy;
+}
+
+ul {
+  font-size: 14px;
+}
+
+ul li {
+  float: left;
+  margin-right: 80px;
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li a:hover {
+  color: navy;
+  font-weight: bold;
 }
 /*# sourceMappingURL=sass.css.map */
