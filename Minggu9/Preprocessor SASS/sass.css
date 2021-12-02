@@ -27,13 +27,26 @@ ul li a:hover {
   font-weight: bold;
 }
 
-p {
-  border: 2px solid navy;
-  border-radius: 20px;
+.space, p, td {
   padding: 20px;
 }
 
+p {
+  border: 2px solid navy;
+  border-radius: 20px;
+}
+
 p:hover {
+  background-color: navy;
+  color: #fff;
+}
+
+td {
+  border: 2px solid navy;
+  border-radius: 10px;
+}
+
+td:hover {
   background-color: navy;
   color: #fff;
 }

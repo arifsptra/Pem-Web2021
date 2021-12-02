@@ -35,7 +35,16 @@ ul {
   }
 }
 
+.space {
+  padding: 20px;
+}
+
 p {
   @include bordered(2px, 20px);
-  padding: 20px;
+  @extend .space;
+}
+
+td {
+  @include bordered(2px, 10px);
+  @extend .space;
 }
