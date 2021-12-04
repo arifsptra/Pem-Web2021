@@ -50,4 +50,14 @@ td:hover {
   background-color: navy;
   color: #fff;
 }
+
+img {
+  color: #bbbbbb;
+}
+
+.warna {
+  width: 200px;
+  height: 200px;
+  background-color: #008800;
+}
 /*# sourceMappingURL=sass.css.map */
