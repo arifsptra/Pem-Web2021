@@ -60,4 +60,26 @@ img {
   height: 200px;
   background-color: #008800;
 }
+
+.if,
+.if2,
+.if3 {
+  width: 400px;
+  height: 400px;
+  padding: 50px;
+}
+
+.if {
+  background: black;
+}
+
+.if2 {
+  background-color: #f2ece4;
+  color: #036;
+}
+
+.if3 {
+  background-color: #0088b9;
+  color: #fff;
+}
 /*# sourceMappingURL=sass.css.map */

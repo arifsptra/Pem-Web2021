@@ -94,3 +94,39 @@ img {
   // change-color($color, [$red], [$green], [$blue], [$saturation], [$lightness], [$alpha])
   background-color: change-color(#0088b9, $blue: 0%); // bisa pakai % atau angka 1-255
 }
+.if,
+.if2,
+.if3 {
+  width: 400px;
+  height: 400px;
+  padding: 50px;
+}
+
+// if/else statement
+.if {
+  @if lightness(#0088b9) > 10% {
+    background: black;
+  } @else {
+    background: red;
+  }
+}
+
+$light-background: #f2ece4;
+$light-text: #036;
+$dark-background: #0088b9;
+$dark-text: #fff;
+@mixin theme-colors($light-theme: true) {
+  @if $light-theme {
+    background-color: $light-background;
+    color: $light-text;
+  } @else {
+    background-color: $dark-background;
+    color: $dark-text;
+  }
+}
+.if2 {
+  @include theme-colors($light-theme: true);
+}
+.if3 {
+  @include theme-colors($light-theme: false);
+}
