@@ -1,0 +1,15 @@
+* {
+  margin: 0px auto;
+  text-align: center;
+  max-width: 500px;
+}
+h1 {
+  font-size: 30px;
+  color: #0088b9;
+  padding: 10px;
+}
+h2 {
+  font-size: 15px;
+  color: #000;
+  padding-bottom: 4px;
+}
