@@ -165,3 +165,20 @@ $panjang: 1;
   }
   $panjang: $panjang + 1;
 }
+
+// Math
+.tambah {
+  width: 10px + 10px;
+  height: 20px + 15px;
+  background-color: #0088b9;
+}
+.bagi {
+  width: (4in / 2in) + in;
+  height: (10in / 5in) + in;
+  background-color: #036;
+}
+.kali {
+  width: (20 * 2) + px;
+  height: (30 * 2) + px;
+  background-color: #7ff;
+}

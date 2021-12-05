@@ -112,4 +112,22 @@ img {
   background-color: #0088b9;
   width: 200px;
 }
+
+.tambah {
+  width: 20px;
+  height: 35px;
+  background-color: #0088b9;
+}
+
+.bagi {
+  width: 2in;
+  height: 2in;
+  background-color: #036;
+}
+
+.kali {
+  width: 40px;
+  height: 60px;
+  background-color: #7ff;
+}
 /*# sourceMappingURL=sass.css.map */
