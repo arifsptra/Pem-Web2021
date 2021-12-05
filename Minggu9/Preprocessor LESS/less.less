@@ -9,6 +9,7 @@
 @font-heading2: 15px;
 @colorBlack: #000;
 @colorBlue: #0088b9;
+@colorWhite: #fff;
 h1 {
   font-size: @font-heading1;
   color: @colorBlue;
@@ -18,4 +19,30 @@ h2 {
   font-size: @font-heading2;
   color: @colorBlack;
   padding-bottom: 4px;
+}
+
+// Nesting
+.untukNesting {
+  background-color: @colorBlue;
+  color: @colorWhite;
+  width: 100%;
+
+  float: left;
+  ul {
+    list-style: none;
+    margin: 0;
+    li {
+      float: left;
+      padding-right: 120px;
+      a {
+        color: @colorWhite;
+        text-decoration: none;
+        &:hover {
+          color: @colorBlack;
+          background-color: @colorWhite;
+          font-weight: bold;
+        }
+      }
+    }
+  }
 }
