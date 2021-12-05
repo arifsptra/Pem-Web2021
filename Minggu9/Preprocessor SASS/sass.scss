@@ -130,3 +130,38 @@ $dark-text: #fff;
 .if3 {
   @include theme-colors($light-theme: false);
 }
+
+// Loops
+// Menggunakan for
+.for {
+  color: $colorNavy;
+}
+@for $i from 1 to 3 {
+  .for-#{$i} {
+    border: $i + px solid $colorBlack;
+  }
+}
+
+// Menggunakan each
+$warnaBackground: (
+  "merah": #d64651,
+  "blue": #0088b9,
+);
+
+@each $background, $i in $warnaBackground {
+  .each {
+    &-#{$background} {
+      background-color: $i;
+    }
+  }
+}
+
+// Menggunakan while
+$panjang: 1;
+@while $panjang < 3 {
+  .while-#{$panjang} {
+    background-color: #0088b9;
+    width: (100 * $panjang) + px;
+  }
+  $panjang: $panjang + 1;
+}

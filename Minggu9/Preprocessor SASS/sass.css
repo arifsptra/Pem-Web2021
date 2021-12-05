@@ -82,4 +82,34 @@ img {
   background-color: #0088b9;
   color: #fff;
 }
+
+.for {
+  color: navy;
+}
+
+.for-1 {
+  border: 1px solid black;
+}
+
+.for-2 {
+  border: 2px solid black;
+}
+
+.each-merah {
+  background-color: #d64651;
+}
+
+.each-blue {
+  background-color: #0088b9;
+}
+
+.while-1 {
+  background-color: #0088b9;
+  width: 100px;
+}
+
+.while-2 {
+  background-color: #0088b9;
+  width: 200px;
+}
 /*# sourceMappingURL=sass.css.map */
