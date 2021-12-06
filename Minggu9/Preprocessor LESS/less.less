@@ -46,3 +46,18 @@ h2 {
     }
   }
 }
+
+// Mixins
+.bordered (@width) {
+  border: @width solid #0088b9;
+  &:hover {
+    border-color: #880;
+  }
+}
+.padding (@pixel) {
+  padding: @pixel;
+}
+.manusia {
+  .bordered(2px);
+  .padding(10px);
+}
