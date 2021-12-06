@@ -85,3 +85,16 @@ ul ol {
   border: 11px solid #0088b9;
   border: 12px solid #0088b9;
 }
+.believe-1 {
+  border: 2px solid #0088b9;
+  padding: 20px;
+}
+.believe-2 {
+  border: 2px solid #0088b9;
+  margin: 1cm;
+}
+.believe-3 {
+  border: 2px solid #0088b9;
+  padding: 0.5in;
+  margin: 0.9375pc;
+}
