@@ -138,3 +138,12 @@ ul ol {
 .untukIfElse .kedua {
   .mixin(black);
 }
+
+// Loop
+.loop(@counter) when (@counter > 0) {
+  .loop((@counter - 1));
+  border: (2px + @counter) solid @colorBlue;
+}
+.manusia-o {
+  .loop(10);
+}
