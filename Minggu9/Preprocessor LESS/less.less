@@ -76,3 +76,49 @@ ul ol {
   float: right;
   color: #333;
 }
+
+// Color Operations
+.untukColor {
+  margin-top: 60px;
+  width: 200px;
+  height: 200px;
+  color: #fff;
+  font-size: 40px;
+
+  // Color Creation
+  // background-color: rgb(173, 64, 56);
+  // background-color: rgb(50%, 50%, 100%);
+  // background-color: hsl(4, 51, 45);
+  // background-color: hsla(4, 51, 45, 50);
+  // background-color: grayscale(#ad4038);
+  // background-color: complement(#ad4038);
+  // background-color: invert(#ad4038);
+
+  // Compoonent Extraction
+  // background-color: red(#ad4038);
+  // background-color: blue(#ad4038);
+  // background-color: green(#ad4038);
+  // background-color: hue(#ad4038);
+  // background-color: saturation(#ad4038);
+  // background-color: lightness(#ad4038);
+  // background-color: alpha(#ad4038);
+
+  // Manipulate Color
+  // background-color: mix(#0088b9, #bcbabe, 70);
+  // background-color: adjust-hue(#0088b9, @degrees: 40);
+  // background-color: lighten(#0088b9, 10);
+  // background-color: darken(#0088b9, 10);
+  background-color: saturate(#a1140a, 10);
+  // background-color: desaturate(#a1140a, 10);
+  // background-color: rgba(#0088b9, 0.2);
+  // background-color: opacify(#ad4038, 1);
+  // background-color: fade-in(#ad4038, 1);
+  // background-color: transparentize(#0088b9, 0.1);
+  // background-color: fade-out(#0088b9, 0.8);
+  // adjust-color(@color, [@red], [@green], [@blue], [@saturation], [@lightness], [@alpha])
+  // background-color: adjust-color(#0088b9, @red: 100);
+  // scale-color(@color, [@red], [@green], [@blue], [@saturation], [@lightness], [@alpha])
+  // background-color: scale-color(#0088b9, @red: -50%, @alpha: 0.1);
+  // change-color(@color, [@red], [@green], [@blue], [@saturation], [@lightness], [@alpha])
+  // background-color: change-color(#0088b9, @blue: 0%); // bisa pakai % atau angka 1-255
+}

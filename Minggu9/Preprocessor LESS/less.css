@@ -58,3 +58,11 @@ ul ol {
   float: right;
   color: #333;
 }
+.untukColor {
+  margin-top: 60px;
+  width: 200px;
+  height: 200px;
+  color: #fff;
+  font-size: 40px;
+  background-color: #aa0d01;
+}
