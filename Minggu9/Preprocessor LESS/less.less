@@ -61,3 +61,18 @@ h2 {
   .bordered(2px);
   .padding(10px);
 }
+
+// Extends
+.block {
+  padding: 20px;
+}
+
+.extend {
+  &:extend(.block);
+  .bordered(2px);
+}
+ul ol {
+  &:extend(.block);
+  float: right;
+  color: #333;
+}

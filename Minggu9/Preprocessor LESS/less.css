@@ -43,3 +43,18 @@ h2 {
 .manusia:hover {
   border-color: #880;
 }
+.block,
+.extend,
+ul ol {
+  padding: 20px;
+}
+.extend {
+  border: 2px solid #0088b9;
+}
+.extend:hover {
+  border-color: #880;
+}
+ul ol {
+  float: right;
+  color: #333;
+}
