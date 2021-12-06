@@ -122,3 +122,19 @@ ul ol {
   // change-color(@color, [@red], [@green], [@blue], [@saturation], [@lightness], [@alpha])
   // background-color: change-color(#0088b9, @blue: 0%); // bisa pakai % atau angka 1-255
 }
+
+// if/else statement
+.mixin (@color) when (lightness(@color) > 30%) {
+  background-color: @colorBlack;
+  color: @colorWhite;
+}
+.mixin (@color) when (lightness(@color) =< 30%) {
+  background-color: @colorBlue;
+}
+
+.untukIfElse .pertama {
+  .mixin(white);
+}
+.untukIfElse .kedua {
+  .mixin(black);
+}
