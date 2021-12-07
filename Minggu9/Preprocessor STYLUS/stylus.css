@@ -1,0 +1,15 @@
+* {
+  margin: 0px auto;
+  padding: 0px;
+  text-align: center;
+}
+h1 {
+  font-size: 20px;
+  color: #0088b9;
+  background: #fff;
+}
+h2 {
+  font-size: 18px;
+  color: #fff;
+  background: #0088b9;
+}
