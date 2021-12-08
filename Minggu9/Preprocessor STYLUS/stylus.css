@@ -50,3 +50,9 @@ ul li a:hover {
 .untukExtends p:hover {
   border-color: #fff;
 }
+.oneColor {
+  background: #0088b9;
+  width: 200px;
+  height: 200px;
+  background: #00b3ff;
+}
