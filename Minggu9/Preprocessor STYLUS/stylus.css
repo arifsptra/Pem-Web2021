@@ -63,3 +63,9 @@ ul li a:hover {
   background: #0088b9;
   color: colorBlack;
 }
+.loop-1 {
+  border: 1px solid #0088b9;
+}
+.loop-2 {
+  border: 2px solid #0088b9;
+}
