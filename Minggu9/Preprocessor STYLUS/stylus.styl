@@ -38,8 +38,17 @@ bordered(w)
     border: w solid colorPertama
     &:hover
         border-color: colorKedua
-h1 
+.untukMixins h4 
     bordered(4px)
-h2 
+.untukMixins h5 
     bordered(5px)
+
+// Extends
+.kumpulan 
+    padding: 4px 2px 
+.untukExtends p 
+    @extends .kumpulan
+    bordered(10px)
+.untukExtends h4 
+    @extends .kumpulan
 

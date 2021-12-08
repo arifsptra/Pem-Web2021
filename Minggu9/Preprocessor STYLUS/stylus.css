@@ -27,15 +27,26 @@ ul li a {
 ul li a:hover {
   color: #fff;
 }
-h1 {
+.untukMixins h4 {
   border: 4px solid #0088b9;
 }
-h1:hover {
+.untukMixins h4:hover {
   border-color: #fff;
 }
-h2 {
+.untukMixins h5 {
   border: 5px solid #0088b9;
 }
-h2:hover {
+.untukMixins h5:hover {
+  border-color: #fff;
+}
+.kumpulan,
+.untukExtends p,
+.untukExtends h4 {
+  padding: 4px 2px;
+}
+.untukExtends p {
+  border: 10px solid #0088b9;
+}
+.untukExtends p:hover {
   border-color: #fff;
 }
