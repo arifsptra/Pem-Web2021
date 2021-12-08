@@ -33,3 +33,13 @@ ul
             &:hover 
                 color: colorKedua
             
+// Mixins
+bordered(w) 
+    border: w solid colorPertama
+    &:hover
+        border-color: colorKedua
+h1 
+    bordered(4px)
+h2 
+    bordered(5px)
+
