@@ -1,0 +1,14 @@
+.untukImport strong {
+  color: #fff;
+  background-color: rgba(0,0,136,0.533);
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 4px;
+}
+.untukImport strong:hover {
+  background-color: #0088b9;
+}
+.untukImport p {
+  color: #0088b9;
+  padding-top: 4px;
+}

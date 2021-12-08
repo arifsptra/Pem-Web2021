@@ -79,3 +79,17 @@ ul li a:hover {
   padding: 2cm;
   border: 1.393700787401575in;
 }
+.untukImport strong {
+  color: #fff;
+  background-color: rgba(0,0,136,0.533);
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 4px;
+}
+.untukImport strong:hover {
+  background-color: #0088b9;
+}
+.untukImport p {
+  color: #0088b9;
+  padding-top: 4px;
+}
