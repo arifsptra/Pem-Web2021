@@ -145,3 +145,42 @@ _Senin, 29 November 2021_
   - Math
   - Imports
 
+## Materi Minggu 10
+
+_Rabu, 8 Desember 2021_
+
+- Pengertian Javascript
+- Sejarah Javascript
+- Versi ECMAScript
+  - ES 1 : Juni 1997
+  - ES 2 : Juni 1998
+  - ES 3 : Desember 1999
+  - ES 4 : Terbengkalai
+  - ES 5 : Desember 2009
+  - ES 5.1 : Juni 2011
+  - ES 6 : Juni 2015
+  - ES 7 : Juni 2016
+  - ES 8 : Juni 2017
+- Mengenal Console Javascript
+- Penulisan Javascript kedalam HTML
+  - Embed
+  - Inline
+  - Eksternal
+- Variabel
+- Tipe Data
+  - String (teks)
+  - Integer atau Number (bilangan bulat)
+  - Float (bilangan Pecahan)
+  - Boolean
+  - Object
+- Jendela Dialog
+  - Alert()
+  - Confirm()
+  - Prompt()
+- Operator Javascript
+  - Aritmatika
+  - Penugasan (Assignment)
+  - Relasi atau perbandingan
+  - Logika
+  - Bitwise
+  - Ternary
