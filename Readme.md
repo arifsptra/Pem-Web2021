@@ -184,3 +184,35 @@ _Rabu, 8 Desember 2021_
   - Logika
   - Bitwise
   - Ternary
+
+## Materi Minggu 11
+
+_Senin, 13 Desember 2021_
+
+Percabangan Javascript
+
+- if
+- if else
+- if else if
+- switch case
+- operator ternary
+- nested
+
+Perulangan Javascript
+
+- counted loop : perulangan yang jelas
+  - for
+  - foreach
+  - repeat
+- uncounted loop : perulangan yang tidak jelas
+  - while
+  - do while
+
+Struktir Data Array Javascript
+
+- Membuat Array
+- Mengambil Data Array
+- Menampilkan Array
+- Menambahkan Data Kedalam Array
+- Menghapus Array
+- Mengubah Data Array
