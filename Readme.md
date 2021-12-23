@@ -208,7 +208,7 @@ Perulangan Javascript
   - while
   - do while
 
-Struktir Data Array Javascript
+Struktur Data Array Javascript
 
 - Membuat Array
 - Mengambil Data Array
@@ -216,3 +216,59 @@ Struktir Data Array Javascript
 - Menambahkan Data Kedalam Array
 - Menghapus Array
 - Mengubah Data Array
+
+## Materi Minggu 12
+
+_Senin, 20 Desember 2021_
+
+Document Object Model (DOM) adalah dokumen (HTML) yang dimodelkan dalam sebuah objek.
+Objek dari dokumen ini menyediakan sekumpulan fungsi dan atribut/data yang bisa dimanfaatkan dalam membuat program Javascript. Inilah yang disebut API (Application Programming Interface).
+DOM tidak hanya untuk dokumen HTML saja. DOM juga bisa digunakan untuk dokumen XML dan SVG.
+
+Menulis sesuatu ke document HTML dapat menggunakan fungsi <b>document.write()</b>
+
+Akses Element dengan DOM
+
+- getElementById()
+- getElementsByName()
+- getElementsByClassName()
+- getElementsByTagName()
+- getElementsByTagNameNS()
+- querySelector()
+- querySelectorAll()
+
+Membuat Element dengan DOM
+
+- createElement()
+- append()
+
+Menghapus Element dengan DOM
+
+- remove()
+
+Fungsi Javascript
+Fungsi di dalam Javascript adalah sebuah objek. Karena memiliki properti dan juga method.
+
+4 Cara Membuat Fungsi di Javascript
+
+- Menggunakan deklarasi;
+- Menggunakan ekspresi;
+- Menggunakan arrow function/tanda panah (=>);
+- Menggunakan Constructor.
+
+Pemanggilan/Eksekusi Fungsi
+
+- namaFungsi();
+
+Objek Javascript
+Objek sebenarnya adalah sebuah variabel yang menyimpan nilai (properti) dan fungsi (method).
+
+Perbedaan Properti dan Method
+
+- Properti adalah ciri khas dari objek (variabel).
+- Method adalah perilaku dari objek (fungsi). Method dapat dibuat dengan cara mengisi nilai (value) dengan sebuah fungsi.
+
+Cara Mengakses Properti dan Method Objek dengan menggunakan tanda titik atau dot (.), dan diikuti dengan nama properti atau method.
+
+Menggunakan Keyword this
+Kata kunci this digunakan untuk mengakses properti dan method dari dalam method (objek).
