@@ -12,17 +12,35 @@
     <h3>Asyncronous Javascript And XML</h3>
 
     <!-- AJAX 1 -->
-    <div id="hasilAjax1"></div><br>
+    <div id="hasilAjax1"></div>
+    <br />
     <button onclick="loadContentAjax1()">Load Content</button>
     <!-- External Javascript AJAX 1 -->
     <script src="ajax-1.js"></script>
-    <br><br><hr><br>
+    <br /><br />
+    <hr />
+    <br />
+
     <!-- AJAX 2 -->
     <button id="buttonResetA2" onclick="resetAjax()">Reset</button>
-    <div id="hasilAjax2"></div><br>
+    <div id="hasilAjax2"></div>
+    <br />
     <button id="buttonA2" onclick="loadContentAjax2()">Load Content</button>
     <!-- External Javascript AJAX 2 -->
     <script src="ajax-2.js"></script>
+    <br /><br />
+    <hr />
 
+    <!-- AJAX 3 -->
+    <!-- External Javascript AJAX 2 -->
+    <h4>Kirim Data Menggunakan AJAX</h4>
+    <form action="POST" onsubmit="return sendData()">
+      <label for="title">Title</label><br />
+      <input type="text" name="title" id="title" placeholder="Masukkan Judul..." /><br />
+      <label for="isi">Isi Artikel</label><br />
+      <textarea name="isi" id="isi" cols="21" rows="10" placeholder="Masukkan Isi Artikel..."></textarea><br />
+      <input type="submit" id="submit" value="Kirim" />
+    </form>
+    <script src="ajax-3.js"></script>
   </body>
 </html>
