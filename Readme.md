@@ -278,6 +278,7 @@ Kata kunci this digunakan untuk mengakses properti dan method dari dalam method 
 _Senin, 27 Desember 2021_
 
 AJAX = Asynchronous Javascript And XML
+
 Fungsi AJAX
 
 - Mengambil data dari server secara background.
@@ -297,17 +298,21 @@ Fungsi AJAX
   - xhr.send();
 
 Kode State
-<b>Kode | State | Keterangan</b>
-0 | UNSET | Object AJAX sudah dibuat tapi belum memanggil method open().
-1 | OPENED | Method open() sudah dipanggil.
-2 | HEADER_RECEIVED | Method send() sudah dipanggil, dan disini sudah tersedia header status.
-3 | LOADING | Sedang mendownload data.
-4 | DONE | Operasi AJAX selesai.
+
+| <b>Kode | State           | Keterangan</b>                                                          |
+| ------- | --------------- | ----------------------------------------------------------------------- |
+| 0       | UNSET           | Object AJAX sudah dibuat tapi belum memanggil method open().            |
+| 1       | OPENED          | Method open() sudah dipanggil.                                          |
+| 2       | HEADER_RECEIVED | Method send() sudah dipanggil, dan disini sudah tersedia header status. |
+| 3       | LOADING         | Sedang mendownload data.                                                |
+| 4       | DONE            | Operasi AJAX selesai.                                                   |
 
 Kode Status HTTP Request
-<b>Kode | Keterangan</b>
-Lebih dari 200 | Baik
-Kurang dari 200 | Buruk
+
+| <b>Kode         | Keterangan</b> |
+| --------------- | -------------- |
+| Lebih dari 200  | Baik           |
+| Kurang dari 200 | Buruk          |
 
 AJAX Menggunakan JQuery
 
@@ -319,6 +324,7 @@ AJAX Menggunakan JQuery
   - $.post(URL,data,callback);
 
 AJAX Menggunakan Fetch API
+
 Perbedaanya dengan XMLHttpRequest dan JQuery adalah:
 
 - Fetch akan mengembalikan sebuah promise;
@@ -334,12 +340,15 @@ Perbedaanya dengan XMLHttpRequest dan JQuery adalah:
   });
 
 AJAX Menggunakan AXIOS
+
 Axios hampir sama seperti fetch. Bedanya Axios adalah sebuah library sedangkan fetch adalah API yang tersedia di web browser.
 
 JSON (JavaScript Object Notation) adalah sebuah format data yang digunakan untuk pertukaran dan penyimpanan data.
+
 JSON merupakan bagian (subset) dari Javascript.
 
 Sejarah singkat JSON
+
 JSON pertamakali dipopulerkan oleh Douglas Crockford, software engineer yang juga terlibat pengembangan bahasa pemrograman Javascript, sebelumnya arti kata “JSON” belum ada. Orang-orang hanya mengenal Objek Javascript yang dikirim melalui jaringan, sejak meledaknya teknologi AJAX pada tahun 2000. JSON mulai diperkenalkan dan pada tahun 2001, domain json.org mulai aktif dan hingga saat ini JSON banyak digunakan di mana-mana.
 
 Penerapan JSON dalam pemrograman
@@ -354,6 +363,7 @@ Penerapan JSON dalam pemrograman
 - dan masih banyak lagi.
 
 Struktur Dasar JSON
+
 {
 "name": "Arif Saputra",
 "kota": "pati",
@@ -365,5 +375,6 @@ Struktur Dasar JSON
 }
 
 Cara Pembuatan JSON
+
 Setiap bahasa pemrograman memiliki cara yang berbeda-beda untuk membuat dan memakai JSON.
 Pada Javascript, bisa menggunakan fungsi JSON.stringify() untuk membuat JSON dari objek Javascript
