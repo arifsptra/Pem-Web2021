@@ -1,0 +1,42 @@
+[
+  {
+    "nim": "A11.2021.13480",
+    "nama": "Arif Saputra",
+    "alamat": "Pati",
+    "jurusan": "Teknik Informatika",
+    "makul": [
+      {
+        "namaMakul": "Pemrograman Berbasis Web",
+        "dosen": "Pak Abu"
+      },
+      {
+        "namaMakul": "Dasar Pemrograman",
+        "dosen": "Pak Moses"
+      },
+      {
+        "namaMakul": "Organisasi dan Arsitektur Komputer",
+        "dosen": "Pak Ardi"
+      }
+    ]
+  },
+  {
+    "nim": "U10.2021.9831",
+    "nama": "Ezra Walian",
+    "alamat": "Belanda",
+    "jurusan": "Sistem Informasi",
+    "makul": [
+      {
+        "namaMakul": "Dasar Komputasi",
+        "dosen": "Pak Eka"
+      },
+      {
+        "namaMakul": "Matematika Diskrit",
+        "dosen": "Bu Winda"
+      },
+      {
+        "namaMakul": "Akuntansi",
+        "dosen": "Pak Ken"
+      }
+    ]
+  }
+]
